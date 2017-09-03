@@ -1,0 +1,21 @@
+{
+  "name": "linpax/microphp-logger-adapter-mail",
+  "description": "MicroPHP Logger adapter mail",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zcasper",
+      "email": "testuser@mail.linpax.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Micro\\Logger\\Adapter\\Mail\\": "src/"
+    }
+  },
+  "require": {
+    "linpax/microphp-logger": "dev-master",
+    "linpax/microphp-mail": "dev-master"
+  }
+}
